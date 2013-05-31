@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="36683Shift.Zgodnokrwi" Publisher="CN=3CD5F56B-C5F8-4102-8B43-ABC631C1E00D" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Zgodność krwi</DisplayName>
+    <PublisherDisplayName>Shift</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="ZgodnoscKrwi.App">
+      <VisualElements DisplayName="Zgodność krwi" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Zgodnosc Krwi dla Windows 8" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFFFF" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
